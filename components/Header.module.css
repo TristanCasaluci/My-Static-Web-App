@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1rem ;
+    margin-bottom: 1rem;
+    border-bottom: solid;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0.5rem;
+}
+.logo {
+    max-width: 5rem;
+}
