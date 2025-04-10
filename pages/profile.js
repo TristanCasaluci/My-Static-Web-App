@@ -1,13 +1,17 @@
 import {useGlobalContext} from "@/store";
+import Profile from "@/components/Profile";
+
 
 const profilePage = () => {
     const { session } = useGlobalContext()
+    console.log(session)
 
     return (
         <div>
             <h1>Your Profile</h1>
-            <pre>{JSON.stringify(session, null, 4)}</pre>
+            {session && <Profile user={session.user}></Profile>}
         </div>
     )
 }
 export default profilePage
+

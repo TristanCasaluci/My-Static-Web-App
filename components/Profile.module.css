@@ -1,0 +1,9 @@
+.label {
+    display: inline-block;
+    margin-right: 2rem;
+    padding-left: 1rem;
+    border-left: 2px solid black;
+}
+.box {
+    border-top: 2px solid black
+}
