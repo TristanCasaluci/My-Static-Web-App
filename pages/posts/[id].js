@@ -27,8 +27,14 @@ export default function DetailPost({ post, filteredComment }) {
                 <Link href={`/`} className={styles.link}>Back</Link>
                 <div className={styles.detailContainer}></div>
                 <Link href={`/posts/edit/${post.id}`} className={styles.link}>Edit</Link>
-                <div className={styles.detailContainer}></div>
-                <Link className={styles.link} onClick={handleDelete} href={`/`}>Delete</Link>
+
+                {session &&
+                    <>
+                        <div className={styles.detailContainer}></div>
+                        <Link className={styles.link} onClick={handleDelete} href={`/`}>Delete</Link>
+                    </>
+                }
+
             </div>
 
             <div>

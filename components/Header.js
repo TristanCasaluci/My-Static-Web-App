@@ -9,7 +9,9 @@ const Header = () => {
                 <div className={styles.logo}>
                     <img className={styles.logo} src="../logo_campus_news.png" alt="Campus Logo"/>
                     <h1>CAMPUS NEWS</h1>
+                    <img className={styles.maxwell} src="../maxwell.gif" alt=""/>
                 </div>
+
                 <Navigation></Navigation>
             </div>
         </>
