@@ -8,11 +8,12 @@ const Navigation = () => {
     return (
         <>
             <div className={styles.nav}>
-                <a href="/">Home</a>
+                <a href="/" className={styles.link}>Home</a>
 
-                <a href="/posts/create">Create</a>
-                {session && <a href="/profile">Profil</a>}
-                {session ? <a href="/login" onClick={(e) => logout()}>Logout</a> : <a href="/login">Login</a>}
+                <a href="/posts/create" className={styles.link}>Create</a>
+                {session && <a href="/profile" className={styles.link}>Profil</a>}
+                {session ? <a href="/login" className={styles.link} onClick={(e) => logout()}>Logout</a> :
+                    <a href="/login" className={styles.link}>Login</a>}
             </div>
 
         </>

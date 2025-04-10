@@ -2,3 +2,8 @@
     display: flex;
     justify-content: space-evenly;
 }
+.link {
+    color: skyblue;
+    padding-left: 0.5rem;
+    border-left: 1px solid #1a1a1a;
+}

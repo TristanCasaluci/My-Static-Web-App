@@ -21,3 +21,8 @@ a {
   color: inherit;
   text-decoration: none;
 }
+button {
+  border-radius: 0.2rem;
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+}
