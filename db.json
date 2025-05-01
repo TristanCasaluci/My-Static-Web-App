@@ -2,11 +2,11 @@
   "posts": [
     {
       "title": "The underestimated taste of lukewarm water",
-      "text": "Everyone talks about ice-cold or boiling hot water, but what about lukewarm? It's somehow... just there. Neither refreshing nor soothing, but reliable. Maybe we should pay more attention to it.",
+      "text": "Everyone talks about ice-cold or boiling hot water, but what about lukewarm? It's somehow... just there. Neither refreshing nor soothing, but reliable. Maybe we should pay more attention to it.\n\nDies ist ein bearbeiter Post",
       "userId": 1,
       "id": "1",
       "createdAt": "2025-01-08T11:35:45.961Z",
-      "updatedAt": "2025-01-08T11:38:06.374Z"
+      "updatedAt": "2025-04-10T13:02:14.305Z"
     },
     {
       "title": "IPA",
@@ -41,12 +41,12 @@
       "userId": 1
     },
     {
-      "title": "Admin Post",
-      "text": "Admin writes stuff in here",
-      "createdAt": "2025-04-09T11:18:57.853Z",
-      "updatedAt": "2025-04-09T11:19:06.309Z",
+      "title": "Demo ",
+      "text": "Demo test",
+      "createdAt": "2025-04-10T13:02:45.115Z",
+      "updatedAt": "2025-04-10T13:02:45.115Z",
       "userId": "1",
-      "id": "JabJwhy"
+      "id": "R1gKc_g"
     }
   ],
   "comments": [
